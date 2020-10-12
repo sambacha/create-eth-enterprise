@@ -1,10 +1,10 @@
 {
-	"defaultSeverity": "error",
-	"extends": ["tslint:recommended"],
-	"jsRules": {},
-	"rules": {},
-	"rulesDirectory": [],
-	"linterOptions": {
-		"exclude": ["node_modules"]
-	}
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {},
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": ["node_modules"]
+  }
 }
