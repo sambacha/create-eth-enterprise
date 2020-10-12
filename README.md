@@ -1,6 +1,6 @@
 <!-- FIXME: YOUR COPYRIGHT / SPDX LICENSE HEADER -->
-# Baseline Protocol DApp [@trufflesuite]
 
+# Baseline Protocol DApp [@trufflesuite]
 
 > create-react for etherjs & baseline protocol
 
@@ -8,14 +8,18 @@
 [![codecov](https://codecov.io/gh/sambacha/create-eth-enterprise/branch/template/graph/badge.svg)](https://codecov.io/gh/ilyakmet/solidity-typescript-template)
 
 ## 💼 Baseline Protocol
+
 <!-- FIXME: INTRODUCTION -->
-The Baseline Protocol is an open source initiative that combines advances in cryptography, messaging, and blockchain to execute secure and private businessprocesses 
-at low cost via the public Ethereum Mainnet. 
+
+The Baseline Protocol is an open source initiative that combines advances in cryptography, messaging, and blockchain to execute secure and private businessprocesses
+at low cost via the public Ethereum Mainnet.
 
 [ethereum-oasis/baseline](https://github.com/ethereum-oasis/baseline)
 
 ## 🏢 Overview
+
 <!-- FIXME: OVERVIEW -->
+
 The protocol will enable confidential and complex collaboration between enterprises without leaving any sensitive data on-chain.
 
 ## Developer Tools 🛠️
@@ -24,28 +28,24 @@ The protocol will enable confidential and complex collaboration between enterpri
 - [TypeChain](https://github.com/ethereum-ts/TypeChain)
 - [Openzeppelin Contracts](https://openzeppelin.com/contracts/)
 
-
-
-
 ## Tested Against
+
 <!-- You can find specific versioning information used here at https://gist.github.com/sambacha/116b0dfc5c99cc8905545d63002b8f94 -->
 
-| Version | Build | Date <br>(yyyy-mm-dd) |
-| :---: | :---: | :---: |
-| Version 0.6.4 | MDc6UmVsZWFzZTI0MzgwNTQ3 | 2020-03-10T15:26:16Z |
-
+|    Version    |          Build           | Date <br>(yyyy-mm-dd) |
+| :-----------: | :----------------------: | :-------------------: |
+| Version 0.6.4 | MDc6UmVsZWFzZTI0MzgwNTQ3 | 2020-03-10T15:26:16Z  |
 
 ### Proposal Responsibility:
 
-| Person               | Contact Info           | Responsibility           |
-| -------------------- | ---------------------- | ------------------------ |
-| @github_usrname | usr@github_email.com | Proposal Submitter |
-| @github_dev1 | posixmeharder@tycoon.com | Developer |
-
+| Person          | Contact Info             | Responsibility     |
+| --------------- | ------------------------ | ------------------ |
+| @github_usrname | usr@github_email.com     | Proposal Submitter |
+| @github_dev1    | posixmeharder@tycoon.com | Developer          |
 
 ## Files
 
-*Explain what is the purpose of each process and process related file in the project.*
+_Explain what is the purpose of each process and process related file in the project._
 
 Click to see file details:
 
@@ -53,9 +53,8 @@ Click to see file details:
   <summary>IYIPX.sol</summary>
   <br>
 
-  This file does something and its purpose is to do abc.
+This file does something and its purpose is to do abc.
 
- 
   <hr>
 </details>
 
@@ -63,7 +62,7 @@ Click to see file details:
   <summary>deploy-mainnet.sh</summary>
   <br>
 
-  This file deploys the contracts on `mainnet`
+This file deploys the contracts on `mainnet`
 
   <hr>
 </details>
@@ -72,9 +71,9 @@ Click to see file details:
   <summary>myEmailTemplate.ftl</summary>
   <br>
 
-  This file does something and its purpose is to do abc.
+This file does something and its purpose is to do abc.
 
-  Image example of the **Rendered** FreeMarker file (if applicable)
+Image example of the **Rendered** FreeMarker file (if applicable)
 
   <hr>
 </details>
@@ -113,24 +112,24 @@ $ NETWORK=rinkeby yarn deploy
 $ NETWORK=rinkeby yarn run verify YourContractName
 ```
 
+_For further deployment templates and options see:_ [Deployment Documentation](docs/deployment.md)
 
-*For further deployment templates and options see:* [Deployment Documentation](docs/deployment.md)
-
-| Method              | Trigger                 |
-| ------------------- |:----------------------- |
-| Truffle | On creation of a Production Release. <br> Deployed to mainnet `chainid: 1` |
-| Web3 Provider | On commit to branch with pattern `build/development`. <br> Deployed to `testnet` `ropsten`
+| Method        | Trigger                                                                                    |
+| ------------- | :----------------------------------------------------------------------------------------- |
+| Truffle       | On creation of a Production Release. <br> Deployed to mainnet `chainid: 1`                 |
+| Web3 Provider | On commit to branch with pattern `build/development`. <br> Deployed to `testnet` `ropsten` |
 
 ## Changelog
 
-*Store details about the releases of your improvement in the Change Log*
+_Store details about the releases of your improvement in the Change Log_
 
 [Improvement Change Log](CHANGELOG.md)
 
 ## Informative / Additional Information
+
 <!-- INFORMATION THAT WOULD BE HELPFUL, ETC) -->
 
-*Explanation of other details about the project that may not have been included in the Overview.*
+_Explanation of other details about the project that may not have been included in the Overview._
 
 Examples:
 
@@ -143,7 +142,7 @@ Examples:
 
 ## Additional Support documentation
 
-*See the following for additional support documentation related to building and managing process projects:*
+_See the following for additional support documentation related to building and managing process projects:_
 
 1. [Best Practices and Documentation Patterns](docs/patterns.md)
 1. [Helper Scripts and Snippets](docs/helpers.md)
@@ -152,27 +151,26 @@ Examples:
 
 A list of terms and libraries used by this project.
 
-| Term           | Acronym | Definition         |
-| -------------- | ------- | ------------------ |
-| Requestor | | |
-| Initiator| | Another term used for requestor. |
-| SafeMath | Lib | OpenZeppelin |
-| Proxy | | |
-| Margin Rate | | |
-| Stablecoin | | |
-| Tether | USDT | USDT Stablecoin |
+| Term        | Acronym | Definition                       |
+| ----------- | ------- | -------------------------------- |
+| Requestor   |         |                                  |
+| Initiator   |         | Another term used for requestor. |
+| SafeMath    | Lib     | OpenZeppelin                     |
+| Proxy       |         |                                  |
+| Margin Rate |         |                                  |
+| Stablecoin  |         |                                  |
+| Tether      | USDT    | USDT Stablecoin                  |
 
 ## Security
 
-| Point of contact           |  Method         |
-| -------------- | ------------------ |
-| persons name | contact@method.com |
+| Point of contact | Method             |
+| ---------------- | ------------------ |
+| persons name     | contact@method.com |
 
+## License
 
-## License 
 <!-- FIXME: LICENSE -->
 
 This Boilerplte is CC-0 - Public Domain
-
 
 <!-- Additional information for licenses should be in the SPDX- format -->
