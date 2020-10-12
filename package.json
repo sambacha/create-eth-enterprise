@@ -1,10 +1,10 @@
 {
-	"name": "solidity-typescript-template",
+	"name": "create-eth-enterprise",
 	"version": "1.0.0",
 	"main": "index.js",
-	"repository": "https://github.com/ilyakmet/solidity-typescript-template.git",
-	"author": "ilyakmet <ilyakmet@gmail.com>",
-	"license": "MIT",
+	"repository": "https://github.com/sambacha/create-eth-enterprise.git",
+	"author": "${GITHUB_USER} <${USERNAME}@${EMAIL}.com>",
+	"license": "SEE LICENSE IN LICENSE",
 	"scripts": {
 		"compile": "yarn truffle compile && yarn typechain --target truffle './build/**/*.json'",
 		"flatten": "./node_modules/.bin/poa-solidity-flattener $PWD/contracts/**/*.sol",
